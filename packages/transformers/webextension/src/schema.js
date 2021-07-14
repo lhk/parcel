@@ -43,7 +43,7 @@ export default ({
   properties: {
     manifest_version: {
       type: 'number',
-      enum: [2],
+      enum: [2, 3],
     },
     name: {type: 'string'},
     version: {
